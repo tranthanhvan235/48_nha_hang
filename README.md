@@ -1,4 +1,4 @@
-# 48_nha_hang
+# Solution 48 (Nhà hàng)
 $\textbf{Solution:}$
 Với mỗi thời điểm đến và đi của từng khách hàng thì số lượng khách trong nhà hàng tại thời điểm đó sẽ thay đổi. Ta chỉ cần chuẩn bị một mảng $c$ lưu các cặp giá trị là $(time, status)$ nếu $time$ là thời gian đến của 1 khách hàng thì $status$ tương ứng là 1 (vì sẽ có thêm 1 vị khách vào nhà hàng lúc đó), ngược lại nếu time là thời điểm rời đi của 1 khách hàng thì $status$ tương ứng là -1 (vì sẽ có 1 vị khách rời khỏi nhà hàng lúc đó).
 
